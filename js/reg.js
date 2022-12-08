@@ -62,6 +62,6 @@ form.onsubmit = async function (e) {
 
   if (resp.code === 0) {
     alert('注册成功，点击确定，跳转到登录页');
-    location.href = './login.html';
+    location.href = baseUrl + 'login.html';
   }
 };

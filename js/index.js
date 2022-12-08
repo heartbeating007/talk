@@ -5,7 +5,7 @@
   // 如果没有登录信息，就提醒重新登录
   if (!user) {
     alert('未登录或登录已过期，请重新登录');
-    location.href = '../login.html';
+    location.href = baseUrl + 'login.html';
     return;
   }
 
@@ -31,7 +31,7 @@
   // 注销账户信息，退出登录
   doms.close.onclick = function () {
     API.loginOut();
-    location.href = './login.html';
+    location.href = baseUrl + 'login.html';
   };
   // 传入一条消息，把消息加载到页面
   function addChat(chatInfo) {

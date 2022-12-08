@@ -8,3 +8,5 @@ function $$(selector) {
 function $$$(tagName) {
   return document.createElement(tagName);
 }
+
+const baseUrl = '/talk/';
