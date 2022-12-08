@@ -9,4 +9,4 @@ function $$$(tagName) {
   return document.createElement(tagName);
 }
 
-const baseUrl = '/talk/';
+var baseUrl = '/talk/';
